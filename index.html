@@ -6,28 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Instagram</title>
 </head>
 
 <body>
-    <section class="container d-flex justify-content-center">
+    <section class="container d-flex justify-content-center mt-4">
         <section>
             <img src="img/home-phones.png" alt="">
 
         </section>
-        <section>
-            <div>
-                <img src="img/insta-logo.png" alt="">
-                <input type="text">
-                <input type="password">
-                <button>iniciar sesion</button>
-                
+        <section class=" d-flex flex-column pt-4 rigth-box">
+            <div class="d-flex flex-column form-box mb-2 p-4">
+                <div class="d-flex justify-content-center">
+                    <img class="instagram-logo" src="img/insta-logo.png" alt="">
+                </div>
+                <input class="form-input input-text p-2 mb-1" type="text"
+                    placeholder="Teléfono, usuario o correo electrónico">
+                <input class="form-input input-text p-2 mb-3" type="password" placeholder="Contraseña">
+                <button class="form-btn text-white border-0 rounded-3 p-1">iniciar sesion</button>
+                <div class="d-flex mt-3">
+                    <div class="line me-2"></div>
+                    <div class="m-2 text-secondary">o</div>
+                    <div class="line ms-2"></div>
+                </div>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="d-flex justify-content-center form-box">
+                <div>¿No tienes una cuenta? <a href="#">Regístrate</a></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div>Descarga la app.</div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <img class="w-25" src="https://static.cdninstagram.com/rsrc.php/v3/yT/r/0BpxdgM3WUr.png" alt="">
+                <img class="w-25" src="https://static.cdninstagram.com/rsrc.php/v3/y9/r/LjIQEL8csb0.png" alt="">
+            </div>
         </section>
     </section>
+    <footer>
+        <div>
+            <ul>
+                <li>Meta</li>
+                <li>Información</li>
+                <li>Blog</li>
+                <li>Empleo</li>
+                <li>API</li>
+                <li>Privacidad</li>
+                <li>Condiciones</li>
+                <li>Ubicaciones</li>
+                <li>Instagram Lite</li>
+                <li>Threads</li>
+                <li>Subir contactos y no usuarios</li>
+                <li>Meta Verified</li>
+            </ul>
+        </div>
+        <div>
+            <select name="" id="">
+                <option selected>Español</option>
+                <option value="">English</option>
+            </select>
+            <p>© 2023 Instagram from Meta</p>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
