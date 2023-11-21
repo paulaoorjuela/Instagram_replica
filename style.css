@@ -31,3 +31,49 @@
     background-color: #d9dadd;
     transform: translateX(1px) translateY(20px);
 }
+
+.fb-logo{
+    width: 17px;
+    height: 17px;
+}
+
+.login-fb{
+   color: #4267b3;
+   font-size: 14px;
+}
+
+.forgot-pass{
+    font-size: 11px;
+    color: #4267b3 !important;
+}
+
+.box-text{
+    font-size: 14px;
+}
+
+.app-logo{
+    width: 141px;
+    height: 44px;
+}
+
+.footer-text{
+    font-size: 12px;
+    color: #838383 !important;
+}
+
+.fondoTelefono {
+    height: 616px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+}
+
+.sliderImagenes {
+    height: 550px;
+}
+
+.divPeye {
+    width: 241px;
+    transform: translate(192px, 26px);
+}
